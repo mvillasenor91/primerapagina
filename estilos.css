@@ -1,0 +1,98 @@
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	}
+body { 
+	font: 'times new roman';
+	line-height: 1.88889;
+	color: rgb(245, 245, 245);
+	background: #fff url(images/background.png) ; 
+	margin: 0; 
+	padding: 0;
+	width: 100%;
+	}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	}
+	p.footer{
+		text-align: center;
+		color:whitesmoke;
+		margin: 0;
+		padding: 0;
+	}
+header{
+	font: 200% 'Times new roman';
+    background-color: white;
+	color: rgba(133, 34, 226, 0.938);
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	}
+h1{
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}    
+nav{
+	height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+	background: url(images/twitchbackgroundgray.jpg);
+	background-repeat: repeat-y;
+    overflow-x: hidden;
+	padding-top: 0;
+	border: transparent;
+
+}
+footer{
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #efefef;
+	text-align: center;
+	color: black;
+	background: url(images/twitchbackground.jpg);
+}
+ul{
+	text-align: justify;
+}
+audio{
+	text-align: center;
+}
+#loading {
+	animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+	from {
+			-webkit-transform: rotate(0deg);
+	}
+	to {
+			-webkit-transform: rotate(359deg);
+	}
+}
+#shaking {
+		animation: shake 0.5s;
+		animation-iteration-count: infinite;
+	  }
+	  
+	  @keyframes shake {
+		0% { transform: translate(1px, 1px) rotate(0deg); }
+		10% { transform: translate(-1px, -2px) rotate(-1deg); }
+		20% { transform: translate(-3px, 0px) rotate(1deg); }
+		30% { transform: translate(3px, 2px) rotate(0deg); }
+		40% { transform: translate(1px, -1px) rotate(1deg); }
+		50% { transform: translate(-1px, 2px) rotate(-1deg); }
+		60% { transform: translate(-3px, 1px) rotate(0deg); }
+		70% { transform: translate(3px, 1px) rotate(-1deg); }
+		80% { transform: translate(-1px, -1px) rotate(1deg); }
+		90% { transform: translate(1px, 2px) rotate(0deg); }
+		100% { transform: translate(1px, -2px) rotate(-1deg); }
+	  }
