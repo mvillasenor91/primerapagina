@@ -1,0 +1,26 @@
+Material design (branded 2014 google)
+- Diseno unificado para aplicaciones moviles.
+- Se basa en objetos materiales, agrupados a traves de diferentes capas para conseguir una apariencia de relieve con sombras y colores planos.
+- Usa animaciones y transiciones logicas (siguiendo las leyes de la fisica).
+
+Flat design (2001 apple)
+- Diseno plano, estilo minimalista enfocado a la funcionalidad.
+- Se basa en priorizar la comunicacion evitando adornos que puedan distraer.
+- Deja atras los degradados, texturas, sombras, da prioridad a la iconografia, los colores, tipografica y la fotografia.
+
+
+Diferencias:
+- Flat design es ideal para usuarios que estan en sintonia con la interaccion digital, mientras que material design tiene una respuesta mas reactiva a la accion del usuario.
+- Material design puede parecer esteticamente plano (colores), pero es multidimensional, toma en consideracion el eje Z.
+- Ambos tienen enfoques minimalistas, pero material design intenta juntar el mundo real y el digital.
+- Flat design no tiene esqueumorfismos mientras que material design lo utiliza sutilmente.
+- Flat design es mejor para las necesidades simplistas, mientras que material design es para necesidades mas complejas.
+- Flat design es mas facil de desarrollar y mas rapido de cargar.
+- Material design es mas robusto que flat design, es un ecosistema no solo un estilo.
+- Material design es interactivo y tiene un sentido de la fisica.
+- Material design es una evolucion de flat design.
+
+
+
+
+Esqueumorfismo: tecnica de diseno en que un objeto derivado tiene ornamentos que eran necesarios en los objetos originales.
