@@ -6,21 +6,29 @@ html {
 body { 
 	font: 'times new roman';
 	line-height: 1.88889;
-	color: rgb(245, 245, 245);
-	background: #fff url(images/background.png) ; 
+	color: rgb(245, 245, 245);	
 	margin: 0; 
 	padding: 0;
 	width: 100%;
+	}
+main{
+	background: #fff url(images/background.png) ; 
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 21px;
+	padding-bottom: 12px;
+	width: calc(100% - 200px);
+	box-sizing: border-box;
 	}
 p { 
 	margin-top: 0; 
 	text-align: justify;
 	}
-	p.footer{
-		text-align: center;
-		color:whitesmoke;
-		margin: 0;
-		padding: 0;
+p.footer{
+	text-align: center;
+	color:whitesmoke;
+	margin: 0;
+	padding: 0;
 	}
 header{
 	font: 200% 'Times new roman';
@@ -28,7 +36,10 @@ header{
 	color: rgba(133, 34, 226, 0.938);
 	margin: 0;
 	padding: 0;
+	padding-top: 7px;
 	text-align: center;
+	position: relative;
+	z-index: 2;
 	}
 h1{
 	background-color: white;
@@ -39,7 +50,7 @@ nav{
 	height: 100%;
     width: 200px;
     position: fixed;
-    z-index: -1;
+    z-index: 1;
     top: 0;
     right: 0;
 	background: url(images/twitchbackgroundgray.jpg);
@@ -47,10 +58,10 @@ nav{
     overflow-x: hidden;
 	padding-top: 0;
 	border: transparent;
-
 }
 footer{
 	position: relative;
+	z-index: 2;
 	right: 0;
 	bottom: 0;
 	left: 0;
@@ -78,7 +89,7 @@ audio{
 			-webkit-transform: rotate(359deg);
 	}
 }
-#shaking {
+.shaking {
 		animation: shake 0.5s;
 		animation-iteration-count: infinite;
 	  }
@@ -96,3 +107,6 @@ audio{
 		90% { transform: translate(1px, 2px) rotate(0deg); }
 		100% { transform: translate(1px, -2px) rotate(-1deg); }
 	  }
+.video{
+	text-align: center;
+}
