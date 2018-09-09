@@ -1,8 +1,13 @@
 # Tareas
 02/09/2018
 - Leer tipos de display de los elementos html (inline, block, inline-block).
-- Leer propiedad css box-sizing.
+- Leer propiedad css box-sizing y box model.
+- Leer css overflow.
 - Leer sobre position types.
+- Buscar problemas de los 4 puntos anteriores y sus respuestas.
+- Arreglar links, que abran una ventana externa.
+- Buscar algo que poner en otras paginas.
+- Cambiar pagina principal.
 
 19/08/2018
 - Hacer pagina bonita con elementos chingones de html.
