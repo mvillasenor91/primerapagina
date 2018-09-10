@@ -1,5 +1,5 @@
 02/09/2018
-Tipos de display
+**Tipos de display**
 - Inline: Ocupa solo el espacio necesario para mostrar su contenido.
 - Block: Empieza en una nueva linea, ocupa todo el espacio disponible hasta el final de su linea.
 - None: El elemento no genera ninguna caja, desaparece de la pagina y no ocupa sitio.
@@ -8,20 +8,20 @@ Tipos de display
 - List-item: Cualquier elemento se muestra como si fuera un elemento de lista.
 - Table: Hace que los elementos se muestren como parte de una tabla, fila, columna o celda.
 
-Box-model
+**Box-model**
 - Es el tamaño de la caja pero tomando en cuenta modificaciones del borde y el padding, lo que estiran mas el elemento.
 
-Box-sizing
+**Box-sizing**
 - Al ajustar un elemento con box-sizing: border-box, el borde y el padding no incrementan su ancho.
 - Esta propiedad asegura que el tamaño del elemento siempre sera modificado de la manera mas intuitiva.
 
-Overflow
+**Overflow**
 - Visible: El contenido se sale del elemento y es completamente visible.
 - Hidden: Oculta todos los contenidos que salen de la caja del elemento.
 - Scroll: Se muestra un scroll sobre el elemento cuando su contenido no cabe en la caja.
 - Auto: El navegador toma la decision de mostrar o no las barras de scroll.
 
-Posicion
+**Posicion**
 - Static: Es un valor predeterminado y el posicionamiento normal de los elementos en la pagina, es decir, los elementos se colocan segun el flujo normal de html.
 - Relative: Su posicion depende del lugar donde se encuentre en el codigo y el flujo de html, admite los valores top, left, etc para definir la distancia a la que se coloca con respecto al punto donde este en ese momento en el flujo de html.
 - Fixed: Lo posiciona en un espacio absoluto, es decir su posicion siempre sera fija aunque se desplace el documento con las barras de desplazamiento.
@@ -30,18 +30,18 @@ Posicion
 
 19/08/2018
 
-Material design (branded 2014 google)
+**Material design (branded 2014 google)**
 - Diseno unificado para aplicaciones moviles.
 - Se basa en objetos materiales, agrupados a traves de diferentes capas para conseguir una apariencia de relieve con sombras y colores planos.
 - Usa animaciones y transiciones logicas (siguiendo las leyes de la fisica).
 
-Flat design (2001 apple)
+**Flat design (2001 apple)**
 - Diseno plano, estilo minimalista enfocado a la funcionalidad.
 - Se basa en priorizar la comunicacion evitando adornos que puedan distraer.
 - Deja atras los degradados, texturas, sombras, da prioridad a la iconografia, los colores, tipografica y la fotografia.
 
 
-Diferencias:
+**Diferencias:**
 - Flat design es ideal para usuarios que estan en sintonia con la interaccion digital, mientras que material design tiene una respuesta mas reactiva a la accion del usuario.
 - Material design puede parecer esteticamente plano (colores), pero es multidimensional, toma en consideracion el eje Z.
 - Ambos tienen enfoques minimalistas, pero material design intenta juntar el mundo real y el digital.

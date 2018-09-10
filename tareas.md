@@ -1,4 +1,10 @@
 # Tareas
+
+09/09/2018
+- Leer sobre flexbox.
+- Practicar flexbox.
+- Investigar sobre Bootstrap y Foundation frameworks.
+
 02/09/2018
 - Leer tipos de display de los elementos html (inline, block, inline-block).
 - Leer propiedad css box-sizing y box model.

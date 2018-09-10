@@ -3,19 +3,26 @@ html {
 	padding: 0;
 	width: 100%;
     }
-main{
-    z-index: 1;
-    box-sizing: border-box;
-    }
 body { 	
     margin: 0; 
     padding: 0;
     width: 100%;
     background: url(images/webdevelopmentbackground.jpg); 
     background-size: 100%;
-    background-repeat: repeat;
-    z-index: 1;
+    background-repeat: repeat; 
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
+main{
+    box-sizing: border-box;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    }
 p{
     text-align: justify;
     margin: 0;
@@ -27,23 +34,22 @@ p.homepage{
     margin: 0;
     padding: 0;
     font-size: 2em;
-    position: absolute;
     top: 50%;
     left: 50%;
     box-sizing: border-box;
 }
 p.archivos{
-    position: absolute;
     text-align: right;
-    top: 83%;
     right: 0;
+    bottom: 0;
     color: aliceblue;
+    position: absolute;
 }
 p.footer{
 	text-align: center;
 	color:whitesmoke;
 	margin: 0;
-	padding: 0;
+    padding: 0;
     }
 header{
     font: 200% 'Times new roman';
@@ -52,23 +58,20 @@ header{
     margin: 0;
     padding: 0;
     text-align: center;
-    position: relative;
-    z-index: 2;
     }
 h1{
     margin: 0;
 	padding: 0;
 }
 footer{
-	position: absolute;
-	z-index: 2;
 	right: 0;
 	bottom: 0;
 	left: 0;
 	padding: 1rem;
 	background-color: rgba(62, 63, 63, 0.938);
 	text-align: center;
-	color: whitesmoke;
+    color: whitesmoke;
+    align-content: flex-end;
 }
 a:link {
     color: rgb(246, 247, 248);
