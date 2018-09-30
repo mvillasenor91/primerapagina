@@ -1,4 +1,6 @@
 # Tareas
+23/09/2048
+- Hacer una pagina web como la del ejemplo sencillo.
 
 09/09/2018
 - Leer sobre flexbox.

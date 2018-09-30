@@ -1,3 +1,24 @@
+09/09/2018
+**Foundation**
+- Inmensa cantidad de opciones de configuracion.
+- Fuerte grid system.
+- Provee un rapido desarrollo de codigo.
+- Es facil utilizar templates descargables.
+- Es ligero
+- Es mas complejo cuando se intenta customizar.
+- No es bueno para principiantes.
+
+**Bootstrap**
+- Un soporte de una comunidad inmensa.
+- Mayor variedad de temas.
+- Mayor rango de navegadores.
+- Mas herramientas de desarrollo.
+- No es tan ligero comprado con otros.
+- Los sitios web son faciles de reconocer.
+- Utiliza jquery
+
+Ambos utilizan sass.
+
 02/09/2018
 **Tipos de display**
 - Inline: Ocupa solo el espacio necesario para mostrar su contenido.
