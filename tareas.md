@@ -1,4 +1,7 @@
 # Tareas
+30/09/2018
+- Diferencia entre url y uri.
+
 23/09/2048
 - Hacer una pagina web como la del ejemplo sencillo.
 

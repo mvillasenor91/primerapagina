@@ -24,6 +24,7 @@ header{
     background: url(imagesprueba/banner.jpg);
     padding-bottom: 0.5rem;
     height: 30vh;
+    background-size: cover;
 }
 h1{
     margin: 0;
@@ -43,7 +44,7 @@ main{
 }
 p{
     margin: 0;
-    padding: 0;
+    padding: 5px;
     color: whitesmoke;
 }
 p.historia{
@@ -54,9 +55,11 @@ p.modalidades{
 }
 p.reglamentacion{
     background: url(imagesprueba/diver.jpg);
+    text-align: center;
 }
 p.equipo{
-    background-image: linear-gradient(to right, rgb(10, 186, 240), rgba(13,127,150,1));  
+    background-image: linear-gradient(to right, rgb(10, 186, 240), rgba(13,127,150,1)); 
+    text-align: center; 
 }
 p.footer{
     text-shadow: #555 2px 2px 3px;
@@ -67,6 +70,30 @@ footer{
     text-align: center;
     background-image: linear-gradient(to right, rgba(92,110,167,1), rgba(13,127,150,1));
 }
-.centroaling{
-text-align: center;
+
+
+button{
+    background-color: rgb(14, 178, 219); 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 0;
 }
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button1:hover {
+    background-color: #555555;
+    color: white;
