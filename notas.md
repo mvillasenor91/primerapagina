@@ -1,3 +1,20 @@
+14/10/2018
+**Expresiones regulares**
+- Es un objeto que describe un patron de caracteres.
+- Son usadas para realizar patrones de busqueda, reemplazo y validaciones.
+- Su sintaxis es /patron/modificadores.
+- Los modificadores se usan para realizar busquedas globales o casos insensitivos.
+- Tambien manejan brackets que definen un rango de caracteres, por ejemplo [abc].
+
+
+30/09/2018
+**URI,URL y URN**
+- URI significa Uniform Resource Identifier, es un identificador de recursos.
+- Identifica una pagina de texto, un video, un clip de sonido, una imagen fija o un programa, es decir identifica un nombre o recurso en internet.
+- URI tiene dos especializaciones (URL y URN).
+- URL identifica un recurso y proporciona los medios para "localizar" el recurso mediante la descripcion de la forma de acceder a el.
+- URN solo define un nombre, no proporciona detalles de como obtener el recurso en una red.    
+
 09/09/2018
 **Foundation**
 - Inmensa cantidad de opciones de configuracion.

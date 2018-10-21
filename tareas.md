@@ -1,4 +1,7 @@
 # Tareas
+14/10/2018
+-Expresiones regulares.
+
 30/09/2018
 - Diferencia entre url y uri.
 
