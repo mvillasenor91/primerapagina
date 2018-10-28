@@ -1,3 +1,25 @@
+21/10/2018
+**Control flow, loops e iteraciones.**
+- Las sentencias de bloque se ponen entre dos llaves {} y son regularmente usadas con flujos de control como lo son el if, for, while, etc.
+- La sentencia if ejecuta una condicion si es verdadera, si no, se puede usar la sentencia opcional else en caso de que la condicion sea falsa.
+- Se pueden realizar else if anidados para tener multiples condiciones.
+- Los valores falsy son: false, undefined, null, 0, Nan o un string vacio ("").
+ - La sentencia switch evalua una expresion y la junta con el caso correspondiente.
+ - Puedes atrapar excepciones o errores usando las sentencias de throw o try-catch.
+ - Se puede usar catch para manejar todas las excepciones generadas en el bloque try.
+- El bloque finally contiene sentencias que se ejecutan despues del bloque try-catch pero antes de que las sentencias sigan el try-tach.
+- Dependiendo del tipo de error puedes usar las propiedades de nombre y mensaje para obtener un mejor mensaje, el nombre provee la clase generar del error mientra que el mensaje provee un mensaje mas completo.
+- La sentencia for se repite hasta que una determinada condicion sea evaluada falsa, esta conformada por una expresion inicial, una condicion (la que es evaluada) y una expresion de incremento.
+- La sentencia do-while se repite hasta que una determinada condicion sea evaluada como falsa.
+- La sentencia while ejecuta la sentencia tan larga como lo sea la condicion especificada a evaluar como verdadera.
+- La sentencia label provee una sentencia con un identificador que te ayuda a referirte a donde sea en el programa.
+- La sentencia break se usa para terminar un loop, un switch o en conjunto con una sentencia label.
+- La sentencia continue puede ser usada para reiniciar un while, do-while, for o una sentencia label.
+- La sentencia for-in se refiere a una variable especifica sobre todas las propiedades ennumerables en un objeto.
+- La sentencia for-of crea un loop sobre objetos iterables, incluyendo array,map,set o argumentos.
+-  Se puede decir que la diferencia es que for-in itera sobre nombres de propiedades y for-of sobre el valor de las propiedades.
+
+
 14/10/2018
 **Expresiones regulares**
 - Es un objeto que describe un patron de caracteres.
@@ -5,6 +27,7 @@
 - Su sintaxis es /patron/modificadores.
 - Los modificadores se usan para realizar busquedas globales o casos insensitivos.
 - Tambien manejan brackets que definen un rango de caracteres, por ejemplo [abc].
+
 
 
 30/09/2018

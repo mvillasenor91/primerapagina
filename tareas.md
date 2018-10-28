@@ -1,4 +1,7 @@
 # Tareas
+21/10/2018
+- Estudiar control flow, loops e iteraciones.
+
 14/10/2018
 -Expresiones regulares.
 
