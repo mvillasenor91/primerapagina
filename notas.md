@@ -1,3 +1,24 @@
+28/10/2018
+**Expresiones y operadores**
+- En javascript se utilizan distintos tipos de operadores, por ejemplo de comparacion, aritmeticos, logicos, condicionales, comas, etc.
+- Los operadores de asignacion asignan un valor a un operand, por ejemplo x=y.
+- Destructuring, hace posible extrar datos de arrays u objetos.
+- Operadores de comparacion, compara los operands y regresa un valor logico basado en donde la comparacion sea verdadera, los operands pueden ser numericos, strings, logicos o valores de objetos.
+- Operadores aritmeticos, toman valores numericos como sus operands y regresan un sencillo valor numerico, los operadores aritmeticos son adicion, sustraccion, multiplicacion y division.
+- Operadores logicos, son tipicamente usados con valores booleanos, los operadores son AND (&&), OR (||) y NOT(!).
+- Operadores string, pueden ser usados en valores string, el operador (+) concatena 2 valores string juntos, regresa otro string como la union de los 2 strings anteriores.
+- Operador condicional, es el unico operador en javascript que usa 3 operands, el operador puede tener uno o dos valores basados en una condicion, ejemplo : condicion ? val1 : val2.
+- Operador coma, simplemente evalua ambos de sus operadores y regresa el valor del ultimo operand, este operador es principalmente usado dentro de un ciclo for, para permitir multiples variables ser actualizadas cada vez que entra en el ciclo.
+- El operador delete borra un objeto, una propiedad del objeto o un elemento en un especificado index en un array.
+- El operador typeof regresa un string indicando el tipo de un operando no evaluado, operand es un string, variable, letra o un objeto.
+- El operador void especifica una expresion a ser evaluada sin tener que regresar un valor.
+- El operador in regresa verdadero si la propiedad especificada esta en el objeto especificado.
+- El operador instance of regresa true si el objeto especificado esta en el tipo  de objeto especificado.
+- Se utiliza la palabra this para referirse a un objeto actual, en general this se refiere al llamado de un objeto en un metodo.
+- El operador de agrupar () controla la precedencia de evaluacion en expresiones.
+- El operador new se utiliza para crear una instancia de un tipo de objeto definido por el usuario o para agrupar tipos de objeto.
+- La palabra super es usada para llamar funciones o al padre de un objeto, es utili con clases para llamar al padre constructor.
+
 21/10/2018
 **Control flow, loops e iteraciones.**
 - Las sentencias de bloque se ponen entre dos llaves {} y son regularmente usadas con flujos de control como lo son el if, for, while, etc.
