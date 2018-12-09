@@ -1,3 +1,15 @@
+04/11/2018
+**Bookmarklets, Array methods, String methods y Funciones**
+- Un Bookmarklet es un marcador que hace referencia a una pequeña porcion de codigo JS para ejecutar ciertas tareas, por ejemplo cambiar el diseño de una pagina, mostrar informacion de enlaces o formularios, abrir una consulta directamente, etc.
+- El metodo toString() convierte un arrar a un string (separado por comas) los valores del array.
+- Hay metodos para unir todos los elementos del array a un string, para sacar o meter elementos al array, para remover elementos (al final), para agregar nuevos elementos (al final), para cambiar o sustituir elementos en el array por su numero index, etc.
+- Una funcion consiste en la palabra funcion seguida del nombre de la funcion,  la lista de los parametros encerrados en un parentesis y separados por comas y los statements que definen la funcion encerrados en llaves.
+Ejemplo:
+function overwachu (Mei){
+    return Mei*Mei;
+}
+
+
 28/10/2018
 **Expresiones y operadores**
 - En javascript se utilizan distintos tipos de operadores, por ejemplo de comparacion, aritmeticos, logicos, condicionales, comas, etc.

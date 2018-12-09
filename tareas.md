@@ -1,4 +1,7 @@
 # Tareas
+04/11/2018
+- Estudiar Bookmarklets, Array methods, String methods y Funciones
+
 28/10/2018
 - Estudiar expresiones y operadores.
 
